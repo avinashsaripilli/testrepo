@@ -1,0 +1,125 @@
+
+.nopadding{padding: 0px;}
+
+
+header{
+	background: #444;
+	border-bottom: 1px solid #000;
+	padding: 10px 0px;
+	margin-bottom: 10px;
+}
+
+
+
+
+main{}
+main h1{font-size: 20px;}
+
+
+
+/* ################################################## *\
+\* #######################   BOX   ################## */
+.bx-ads{
+	/*background: #dedede;*/
+	border-radius: 4px;
+	padding: 1px;
+	margin: 0 auto 10px;
+}
+.bx-ads img{
+	border-radius: 4px;
+}
+.bx-ads-120x240{}
+.bx-fixed{
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	margin: 0px;
+}
+.bx-content-list {
+	background: #f1f1f1 none repeat scroll 0 0;
+	border-radius: 4px;
+	padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+/* ################################################## *\
+\* ################  LIST TABLE  #################### */
+#list {}
+#list {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+	background: #fff;
+	border-radius: 4px;
+}
+
+#list > thead > tr > th,
+#list > tbody > tr > th,
+#list > tfoot > tr > th,
+#list > thead > tr > td,
+#list > tbody > tr > td,
+#list > tfoot > tr > td {
+	padding: 5px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+}
+
+#list > thead > tr > th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #ddd;
+	background: #bbb;
+	color: #fff;
+}
+#list > thead > tr > th a{
+	color: #000;
+}
+#list > caption + thead > tr:first-child > th,
+#list > colgroup + thead > tr:first-child > th,
+#list > thead:first-child > tr:first-child > th,
+#list > caption + thead > tr:first-child > td,
+#list > colgroup + thead > tr:first-child > td,
+#list > thead:first-child > tr:first-child > td {
+	border-top: 0;
+}
+#list > thead > tr > th:first-child {
+	border-radius: 4px 0 0 0;
+}
+#list > thead > tr > th:last-child {
+	border-radius: 0 4px 0 0;
+}
+
+#list > tbody + tbody {
+	border-top: 2px solid #ddd;
+}
+#list .table {
+	background-color: #fff;
+}
+#list > tbody > tr:nth-of-type(odd) {
+	background-color: #f9f9f9;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+	background-color: #f9f9f9;
+}
+table col[class*="col-"] {
+	position: static;
+	display: table-column;
+	float: none;
+}
+table td[class*="col-"],
+table th[class*="col-"] {
+	position: static;
+	display: table-cell;
+	float: none;
+}
+.bx-ads-left-top{position:fixed;top:0px;left:0px;}
+.bx-ads-left-bottom{position:fixed;bottom:0px;left:0px;}
+.bx-ads-right-top{position:fixed;top:0px;right:0px;}
+.bx-ads-right-bottom{position:fixed;bottom:0px;right:0px;}
